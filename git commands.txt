@@ -1,0 +1,27 @@
+------------------Welcome to Git GitHub----------------
+
+1. Basic Git Commands:
+    
+    1. git init :
+        Initalize the repo locally
+    2. git status: 
+        To show changed files & current status
+    3. git add .:
+        To add all the files to staging
+    4. git add filename:
+        To add specific files to staging
+    5. git rm --cached filename:
+        To remove the specific files from staging
+    6. git commit -m "Message":
+        To commit the changes
+    7. git restore filename:
+        To discard the changes in working directory(Suppose if someone delete the files so it will restore it that files must be tracked)
+    8. git clone <repo-url>:
+        To clone an existing repository
+    9. git log :
+        show commit history
+
+2. Configuration:
+
+    1. git configure --global user.name "Your Name"
+    2. git configure --global user.email "Your Email"
