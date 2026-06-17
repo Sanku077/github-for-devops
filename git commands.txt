@@ -25,3 +25,23 @@
 
     1. git configure --global user.name "Your Name"
     2. git configure --global user.email "Your Email"
+
+3. Advance commands
+
+    1. git remote add origin <url>:
+        To connect the remote repo (add a remote repository named origin that points to that specified url)
+    2. git remote -v:
+        List all remote connections with their URLs - verifies your remotes are set up correctly
+    3. git push origin master:
+        It will push all the changes happen in local to github repository
+    4. git pull origin master:
+        It will pull all the changes happen in github to local
+    5. git remote remove origin:
+        delete the remove
+    6. git remote rename origin newname:
+        Rename a remote
+    7. git remote set-url origin <url>:
+        change the remote url
+    8. git remote show origin:
+        Show detailed info about remote
+    
