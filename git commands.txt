@@ -44,4 +44,5 @@
         change the remote url
     8. git remote show origin:
         Show detailed info about remote
-    
+    9. git
+        New command
