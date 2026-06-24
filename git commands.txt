@@ -46,3 +46,50 @@
         Show detailed info about remote
     9. git
         New command
+    10. git clone url:
+        clone the repo from url to local
+
+4. Git Branching commands
+
+    1. git branch:
+        show all the branches
+    2. git fetch:
+        fetch all the branches from github
+    3. git branch -v:
+        show last commit on each branch
+    4. git branch branch_name:
+        create new branch
+    5. git switch branch_name: or git checkout branch_name
+        switch to the given branch
+    6. git checkout -B branch_name:
+        Its an advance command where we create and switch to the new created branch in single command.
+    7. git branch -m old_name new_name:
+        To rename the branch
+    8. git branch -d branch_name:
+        To delete the branch in safe mode (It will allow to delete only merged branch).
+    9. git branch -D branch_name:
+        To delete the branch (It will allow non/unmerged branch also).
+    10. git push origin branch_name:
+        Push branch to remote
+    11. git pull origin branch_name:
+        pull remote branch to local
+    12. git branch -vv:
+        tracking info + last commit.
+    13. git branch --merged:
+        It will show branches merged into current branch
+    14. git branch --no-merged:
+        It will show branche not yet merged.
+    15. git rebase -i HEAD-3:
+        Give vi like editor to edit last 3 commit.
+    16. git rebase -i HEAD-5:
+        Give vi like editor to edit last 5 commit.
+    17. git rebase -i branch_name:
+        Give vi like editor to edit all commits in given branch.
+    
+
+*********************************** NOTE IMP **********************************
+
+A) If you want to merge current branch/ dev branch to master follow below steps
+
+    1. git switch master
+    2. git merge dev/any_branch_name
