@@ -104,4 +104,5 @@ B) To give file permission to file
         R - Read
         X = Execute
 
-Password=Sanket@123
+password=Sanket@123
+
