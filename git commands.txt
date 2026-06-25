@@ -93,3 +93,15 @@ A) If you want to merge current branch/ dev branch to master follow below steps
 
     1. git switch master
     2. git merge dev/any_branch_name
+
+B) To give file permission to file
+    icacls pre-commit /grant username:F
+
+    where:
+        F - FULL permission
+        M - Modify
+        RX - Read & Execute
+        R - Read
+        X = Execute
+
+Password=Sanket@123
