@@ -106,3 +106,4 @@ B) To give file permission to file
 
 password=Sanket@123
 token
+secret
